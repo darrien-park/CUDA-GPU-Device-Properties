@@ -34,7 +34,7 @@ int getCores(cudaDeviceProp dev_prop)
 				cores = sm * 64;
 			else printf("Unknown device type \n");
 				break;
-		//Pascal
+		//Volta
 		case 7:
 			if (dev_prop.minor == 0)
 				cores = sm * 64;
